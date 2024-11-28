@@ -2,20 +2,20 @@ import requests
 from datetime import datetime
 import smtplib
 
-MY_LAT = 50.110924
-MY_LNG = 8.682127
+MY_LAT = # Enter your latitude here
+MY_LNG = # Enter your longitude here
 
 # ----------------------- OPTIONAL: SMTP SETUP -----------------------------------------#
 # def send_mail():
-#     my_email = "shaunsmtptest@gmail.com"
-#     password = "scmdfgcxbehlqlak"
+#     my_email = ""
+#     password = ""
 #
 #     with smtplib.SMTP("smtp.gmail.com") as connection:
 #         connection.starttls()
 #         connection.login(user=my_email, password=password)
 #         connection.sendmail(
 #                             from_addr=my_email,
-#                             to_addrs="shaunsmtptest@yahoo.com",
+#                             to_addrs="",
 #                             msg="Subject:Motivational Quote\n\nThe ISS is right above you, look up!"
 #                             )
 
